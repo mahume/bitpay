@@ -4,9 +4,9 @@ import PrimaryButton from "../shared/buttons/PrimaryButton";
 import CardFooter from "../cards/CardFooter";
 import SecondaryButton from "../shared/buttons/SecondaryButton";
 
-const EditInvoices = () => {
-    const handleSaveChanges = () => ''
-    const handleCancelChanges = () => ''
+const DeleteInvoices = () => {
+    const handleDelete = () => '';
+    const handleClearSelected = () => '';
 
     return (
         <>
@@ -16,16 +16,16 @@ const EditInvoices = () => {
             </Table>
             <CardFooter>
                 <PrimaryButton
-                    text="Save Changes"
-                    onClick={handleSaveChanges}
+                    text="Delete"
+                    onClick={handleDelete}
                 />
                 <SecondaryButton
-                    text="Cancel Changes"
-                    onClick={handleCancelChanges}
+                    text="Undo"
+                    onClick={handleClearSelected}
                 />
             </CardFooter>
         </>
     );
 }
 
-export default EditInvoices;
+export default DeleteInvoices;

@@ -4,6 +4,8 @@ import Welcome from "../pages/Welcome";
 import CardHeader from "./CardHeader";
 import CardBody from "./CardBody";
 import ViewInvoices from "../pages/ViewInvoices";
+import EditInvoices from "../pages/EditInvoices";
+import DeleteInvoices from "../pages/DeleteInvoices";
 
 const CardContainer = styled.div`
   border-radius: 20px;
@@ -25,6 +27,8 @@ const TableCard = () => {
                 <Routes>
                     <Route path="/" element={<Welcome/>}/>
                     <Route path="/view" element={<ViewInvoices/>}/>
+                    <Route path="/edit" element={<EditInvoices/>}/>
+                    <Route path="/delete" element={<DeleteInvoices/>}/>
                 </Routes>
             </CardBody>
         </CardContainer>
