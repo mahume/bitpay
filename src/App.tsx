@@ -1,10 +1,9 @@
 import React from 'react';
+import AppLayout from './components/layouts/AppLayout';
 
-function App() {
-  return (
-    <div className="App">
-    </div>
-  );
-}
+const App = () => (
+      <AppLayout>
+      </AppLayout>
+);
 
 export default App;
