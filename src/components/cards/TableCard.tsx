@@ -6,6 +6,7 @@ import CardBody from "./CardBody";
 import ViewInvoices from "../pages/ViewInvoices";
 import EditInvoices from "../pages/EditInvoices";
 import DeleteInvoices from "../pages/DeleteInvoices";
+import AddInvoice from "../pages/AddInvoice";
 
 const CardContainer = styled.div`
   border-radius: 20px;
@@ -29,6 +30,7 @@ const TableCard = () => {
                     <Route path="/view" element={<ViewInvoices/>}/>
                     <Route path="/edit" element={<EditInvoices/>}/>
                     <Route path="/delete" element={<DeleteInvoices/>}/>
+                    <Route path="/add" element={<AddInvoice/>}/>
                 </Routes>
             </CardBody>
         </CardContainer>
