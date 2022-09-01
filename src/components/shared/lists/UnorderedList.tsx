@@ -1,5 +1,5 @@
-import styled from "styled-components";
 import {CSSProperties, ReactNode} from "react";
+import styled from "styled-components";
 
 const StyledUnorderedList = styled.ul<Props>`
   list-style: none;

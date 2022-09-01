@@ -1,6 +1,6 @@
+import {CSSProperties} from "react";
 import styled from "styled-components";
 import Paragraph from "../texts/Paragraph";
-import {CSSProperties} from "react";
 
 interface StyledTableHeaderProps {
     flex?: CSSProperties['flex'];

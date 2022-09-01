@@ -1,5 +1,5 @@
-import styled from "styled-components";
 import {ReactNode} from "react";
+import styled from "styled-components";
 
 const StyledListItem = styled.li<Props>`
   //border-bottom: ${props => props.isActive ? "2px solid #4F6EF7" : "none"};

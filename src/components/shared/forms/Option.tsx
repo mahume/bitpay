@@ -1,5 +1,5 @@
-import styled from "styled-components";
 import {OptionHTMLAttributes, ReactNode} from "react";
+import styled from "styled-components";
 
 const StyledOption = styled.option``;
 
