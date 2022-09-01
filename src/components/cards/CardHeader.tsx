@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import HomeIcon from "../navigation/HomeIcon";
+import NavLinks from "../navigation/NavLinks";
 
 const StyledNavContainer = styled.div`
   display: flex;
@@ -11,6 +12,7 @@ const StyledNavContainer = styled.div`
 const CardHeader = () => (
     <StyledNavContainer>
         <HomeIcon />
+        <NavLinks/>
     </StyledNavContainer>
 );
 
