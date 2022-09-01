@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import {Route, Routes} from "react-router-dom";
 import Welcome from "../pages/Welcome";
+import CardHeader from "./CardHeader";
+import CardBody from "./CardBody";
 
 const CardContainer = styled.div`
   border-radius: 20px;
@@ -17,9 +19,12 @@ const CardContainer = styled.div`
 const TableCard = () => {
     return (
         <CardContainer>
+            <CardHeader/>
+            <CardBody>
                 <Routes>
                     <Route path="/" element={<Welcome/>}/>
                 </Routes>
+            </CardBody>
         </CardContainer>
     );
 }
