@@ -3,6 +3,7 @@ import {Route, Routes} from "react-router-dom";
 import Welcome from "../pages/Welcome";
 import CardHeader from "./CardHeader";
 import CardBody from "./CardBody";
+import ViewInvoices from "../pages/ViewInvoices";
 
 const CardContainer = styled.div`
   border-radius: 20px;
@@ -23,6 +24,7 @@ const TableCard = () => {
             <CardBody>
                 <Routes>
                     <Route path="/" element={<Welcome/>}/>
+                    <Route path="/view" element={<ViewInvoices/>}/>
                 </Routes>
             </CardBody>
         </CardContainer>
