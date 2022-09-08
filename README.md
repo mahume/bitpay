@@ -14,3 +14,8 @@ Merchant Invoices table viewer, RESTful API for creating and managing merchant i
 - Ability to view, edit, delete and create invoices.
 - Styling inspiration from the Bitpay homepage
 - Uses ContextAPI and custom hooks for state management
+
+### Future Improvements
+- Responsize design
+- Fix useEffect bug
+- Create error handling for API call
