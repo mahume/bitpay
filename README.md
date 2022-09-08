@@ -19,3 +19,4 @@ Merchant Invoices table viewer, RESTful API for creating and managing merchant i
 - Responsize design
 - Fix useEffect bug
 - Create error handling for API call
+- Create test suites for unit testing components and custom hooks
